@@ -1,4 +1,4 @@
-.background {
+/* .background {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,6 +127,15 @@
   width: 100px;
   text-align: center;
 }
+
+.boxesColor {
+  /* background-color: orange; */
+/* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
 .sizes {
   display: flex;
   align-items: center;
@@ -162,6 +171,230 @@
   width: 70%;
   font-size: 33px;
   font-family: roboto;
+}
+.headingss {
+  color: rgba(205, 38, 79, 1);
+}
+.background {
+} */
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.details {
+  width: 70%;
+
+  margin: auto;
+  border-style: solid;
+}
+.topHeading {
+  font-family: roboto;
+
+  color: rgba(205, 38, 79, 1);
+}
+.topHeadingSection {
+  display: flex;
+  align-items: center;
+}
+.line {
+  width: 30%;
+
+  background-color: rgba(217, 217, 217, 1);
+  border-style: none;
+  height: 4px;
+}
+
+.optionsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frstOption {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: roboto;
+}
+.priceBox {
+}
+
+.para1 {
+  font-size: 17px;
+}
+.heading1 {
+  font-size: 24px;
+}
+.discount1 {
+}
+
+.background {
+}
+.secondOption {
+  display: flex;
+}
+.thirdOption {
+  display: flex;
+}
+
+.firstOption {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.firstOption1 {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.firstOption2 {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.firstOption22 {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: pink;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.firstOption3 {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.firstOption33 {
+  display: flex;
+
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: lightblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.firstOptions {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.discountCost {
+  text-decoration: line-through;
+  font-weight: 400;
+  color: rgba(217, 217, 217, 1);
+  font-size: 24px;
+}
+.deals {
+  color: rgba(205, 38, 79, 1);
+}
+.sizesBox {
+  font-family: roboto;
+  display: flex;
+}
+.sizeBox {
+  margin-right: 15px;
+}
+.sizePara {
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+}
+
+.boxesColor {
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+}
+.optionss {
+  width: 160px;
+  height: 40px;
+}
+
+.optionss1 {
+  width: 160px;
+  height: 38px;
+  margin-bottom: 15px;
+}
+.selectOption {
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.op {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-family: roboto;
+}
+.button {
+  background-color: rgba(205, 38, 79, 1);
+  border-style: none;
+  border-radius: 7px;
+  color: #ffffff;
+  margin: auto;
+  height: 70px;
+  width: 100%px;
+  font-size: 22px;
+  font-family: roboto;
+}
+
+@media screen and (min-width: 900px) {
+  .button {
+    width: 800px;
+    font-size: 33px;
+  }
 }
 .headingss {
   color: rgba(205, 38, 79, 1);
